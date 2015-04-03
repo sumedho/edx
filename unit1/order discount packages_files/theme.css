@@ -1,0 +1,519 @@
+/*----------------------------------
+		Theme_# Theme Number
+		Cat 	Category
+		Name	Name
+----------------------------------*/
+
+body {
+	margin:0px;
+	padding:0px;
+	font-family:Verdana, Geneva, Kalimati, sans-serif;
+	font-size:12px;
+}
+
+p {
+
+}
+
+.sf_outer_wrapper {
+	
+}
+
+.sf_extra1 {
+}
+
+.sf_wrapper {
+	width:900px;
+	border-width:0px 1px 1px;
+	border-style:solid;
+	border-color:#FFFFFF;
+	margin:0px auto;
+}
+
+/*--------------------------------
+		Top Navigation
+---------------------------------*/
+
+.sf_navigation_top {
+	display:none;
+}
+
+.sf_navigation_top ul {
+	
+}
+
+.sf_navigation_top ul:after {
+	
+}
+
+.sf_navigation_top ul li {
+	
+}
+
+.sf_navigation_top ul li.sf_last_nav_item {
+	
+}
+
+.sf_navigation_top ul li.sf_first_nav_item {
+
+}
+
+.sf_navigation_top ul li a {	
+	
+}
+
+.sf_navigation_top ul li a:visited {
+	
+}
+
+.sf_navigation_top ul li a:hover{
+	
+}
+
+/*--------------------------------
+		End Top Navigation
+---------------------------------*/
+
+.sf_extra10 {
+	height:31px;
+}
+
+/*--------------------------------
+		Header
+---------------------------------*/
+
+.sf_header_wrapper {
+	border-top:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+	height:168px;
+	background-image:url(images/sunflowers.jpg);
+}
+
+.sf_header_wrapper:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	font-height: 1px;
+}
+
+.sf_extra2 {
+	
+}
+
+.sf_main_header { /* Need height and overflow for reg WST themes. */
+	height:98px;
+	overflow:hidden;
+	padding:20px 25px;
+	font-size:32px;
+}
+
+.sf_main_header div{ 
+	height:94px;
+	overflow:hidden;
+}
+
+.sf_extra3 {
+	margin-left:8px;
+	width:200px;
+	height:30px;
+}
+
+.sf_sub_header { 
+	display:none;
+}
+
+.sf_main_header p, .sf_sub_header p {
+	margin:0px;
+	padding:0px;
+}
+
+/*--------------------------
+		End Header
+--------------------------*/
+
+.sf_extra4 {
+	
+}
+
+/*--------------------------------
+		Navigation
+---------------------------------*/
+
+.sf_navigation {
+	margin-left:8px;
+	margin-bottom:20px;
+	width:200px;
+	float:left;
+	display:inline;
+	text-transform:uppercase;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.sf_navigation:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	font-height: 1px;
+}
+
+.sf_navigation ul {
+	margin:0px;
+	padding:0px;
+	padding-bottom:15px;
+	height:1%;
+	list-style-type:none;
+}
+
+.sf_navigation ul:after {
+	content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 1px;
+    clear: both;
+}
+
+.sf_navigation ul li {
+	padding:3px 4px;
+}
+
+.sf_navigation ul li.sf_last_nav_item {
+	
+}
+
+.sf_navigation ul li.sf_first_nav_item {
+
+}
+
+.sf_navigation ul li a {
+	text-decoration:none;
+	display:block;
+	padding:5px 10px 6px;
+	width:166px;
+}
+
+.sf_navigation ul li a:visited {
+	
+}
+
+.sf_navigation ul li a:hover{
+}
+
+/*------------------------------------
+	Flyout - Left Aligned Menu
+------------------------------------*/
+#Nav1 iframe {
+	position: absolute;
+	/* account for the border */
+	left: -0.25em;
+	top: -0.25em;
+	z-index: 0;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+	margin-left: 3px;
+}
+#Nav1 li ul {  
+	position:absolute;
+	background:#ffffff;
+	left: -999em;
+	height:auto;
+	width:132px;
+	padding:0;
+	margin:-28px 0 0 150px;
+	z-index:1000;
+}
+#Nav1 li a {
+	display : block;
+}
+#Nav1 li:hover, #Nav1 li.hover {  
+    position: static;  
+} 
+#Nav1 li ul li {
+	margin:0;
+	padding:0;
+	background:none;
+	height:auto;
+	border:none;
+	float:left;
+}
+#Nav1 li ul li a {
+	background:#8F8F8F none repeat scroll 0 0;
+	border:1px solid #737373;
+	display:block;
+	height:auto;
+	margin:0 0 1px;
+	padding:8px 5px;
+	white-space:normal;
+	width:120px;
+}
+#Nav1 li ul li a:hover {
+	background:#999898;
+}
+#Nav1 li:hover ul, 
+#Nav1 li.sfhover ul {  
+	left: auto;
+}
+
+/*--------------------------------
+		End Navigation
+---------------------------------*/
+
+.sf_extra5 {
+	
+}
+
+/*--------------------------------
+		 	Page Title
+---------------------------------*/
+
+.sf_pagetitle {
+	float:right;
+	display:inline;
+	margin:15px 15px 5px 0px;
+	width:640px;
+	padding:0px 10px;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.sf_pagetitle h1 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+/*--------------------------------
+		 End Page Title
+---------------------------------*/
+
+.sf_extra6 {
+	
+}
+
+/*--------------------------------
+		 Sub Navigation
+---------------------------------*/
+
+.sf_subnavigation {
+	display: none;
+}
+
+.sf_subnavigation ul {
+	
+}
+
+.sf_subnavigation ul:after {
+	
+}
+
+.sf_subnavigation ul li {
+	
+}
+
+.sf_subnavigation ul li.sf_last_nav_item {
+
+}
+
+.sf_subnavigation ul li.sf_first_nav_item {
+
+}
+
+.sf_subnavigation ul li a {
+	
+}
+
+.sf_subnavigation ul li a:visited {
+	
+}
+
+.sf_subnavigation ul li a:hover {
+	
+}
+
+/*--------------------------------
+		 End Sub Navigation
+---------------------------------*/
+
+.sf_extra11 {
+
+}
+	
+/*--------------------------
+		Content
+--------------------------*/
+
+.sf_content {
+	clear:right;
+	float:right;
+	display:inline;
+	margin-right:15px;
+	margin-bottom:20px;
+	width:660px;
+	min-height:250px;
+	height:auto !important;
+	height:250px;
+}
+
+.sf_content:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	font-height: 1px;
+}
+
+.sf_content img {
+	
+}
+
+/*--------------------------
+		End Content
+--------------------------*/
+
+
+.sf_extra12 {
+	
+}
+
+
+/*--------------------------------
+		 Sub Navigation2
+---------------------------------*/
+
+.sf_subnavigation2 {
+	display: none;
+}
+
+.sf_subnavigation2 ul {
+	
+}
+
+.sf_subnavigation2 ul:after {
+	
+}
+
+.sf_subnavigation2 ul li {
+	
+}
+
+.sf_subnavigation2 ul li.sf_last_nav_item {
+
+}
+
+.sf_subnavigation2 ul li.sf_first_nav_item {
+
+}
+
+.sf_subnavigation2 ul li a {
+	
+}
+
+.sf_subnavigation2 ul li a:visited {
+	
+}
+
+.sf_subnavigation2 ul li a:hover{
+	
+}
+
+/*--------------------------------
+		 End Sub Navigation2
+---------------------------------*/
+
+.sf_extra7 {
+	
+}
+
+.sf_extra7 span{
+	
+}
+
+/*--------------------------
+		 Footer
+--------------------------*/
+
+.sf_footer {
+	clear:both;
+	font-size:10px;
+	margin:0px 15px 5px 8px;
+}
+
+.sf_footer div{
+	
+}
+
+.sf_footer p{
+	margin:0px;
+	padding:0px;
+}
+
+/*--------------------------
+		End Footer
+--------------------------*/
+
+
+.sf_extra8 {
+	
+}
+
+.sf_extra9 {
+	
+}
+
+
+/*--------------------------
+		Extra Stuff
+--------------------------*/
+
+
+a:link {
+	
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	
+}
+
+.sf_banner {
+	width:880px;
+	border-width:0px 1px 1px;
+	border-style:solid;
+	border-color:#FFFFFF;
+	padding:15px 10px;
+	margin:0px auto;
+	text-align:center;
+	font-size:10px;
+}
+
+.sf_banner img {
+	margin-bottom:5px;
+}
+
+.sf_banner a {
+	text-decoration:none;
+}
+
+.sf_banner a:visited {
+
+}
+
+.sf_banner a:hover {
+
+}
+/**
+ * Sticking flyout menu bug
+ *
+ * @bugfix
+ * @affected ie7
+ * @css-for ie7
+ * @valid yes
+ */
+#Nav1 li:hover, #Nav1 li.hover {  
+    position: static;  
+} 
